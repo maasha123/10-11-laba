@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class SignInPage extends AbstractPage{
 
-    private final String PAGE_URL = "https://my.exness.com";
+    private final String PAGE_URL = "https://ftx.com";
 
     private final By locatorLoginInput = By.id("login");
 
