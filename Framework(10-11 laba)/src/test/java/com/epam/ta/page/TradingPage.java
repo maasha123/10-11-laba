@@ -9,7 +9,7 @@ import java.util.List;
 
 public class TradingPage extends AbstractPage{
 
-    private final String PAGE_URL = "https://my.exness.com/webtrading/";
+    private final String PAGE_URL = "https://ftx.com/webtrading/";
 
     private final By locatorAddTab = By.className("add-tab-button");
     private final By locatorSearchInput = By.xpath("//input[@type='search']");
