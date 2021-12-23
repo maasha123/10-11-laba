@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All tests" verbose="1" parallel="false">
+    <test name = "UserAccessTests">
+        <classes>
+            <class name = "com.epam.ta.test.UserAccessTests" />
+        </classes>
+    </test>
+    <test name = "ActionsWithLotTest">
+        <classes>
+            <class name = "com.epam.ta.test.ActionsWithLotTest" />
+        </classes>
+    </test>
+    <test name = "AdditionalFuncsTest">
+        <classes>
+            <class name = "com.epam.ta.test.AdditionalFuncsTest" />
+        </classes>
+    </test>
+</suite>
