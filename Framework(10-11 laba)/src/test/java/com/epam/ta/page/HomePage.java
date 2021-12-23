@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends AbstractPage{
 
-    private final String PAGE_URL = "https://exness.com";
+    private final String PAGE_URL = "https://ftx.com";
 
     private final By locatorSignInButton = By.xpath("//div[@class='sidebar-tabs__buttons']/a");
 
