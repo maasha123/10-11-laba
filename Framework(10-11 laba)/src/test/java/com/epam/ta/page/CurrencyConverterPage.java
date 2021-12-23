@@ -9,7 +9,7 @@ import java.util.List;
 
 public class CurrencyConverterPage extends AccountPage{
 
-    private final String PAGE_URL = "https://www.exness.com/en/converter";
+    private final String PAGE_URL = "https://www.ftx.com/en/converter";
 
     private final By locatorAmountInput = By.xpath("//*[text()='Amount']/preceding-sibling::input");
     private final By locatorAllAmountInputs = By.xpath("//*[@class='inp-group__case']//input");
