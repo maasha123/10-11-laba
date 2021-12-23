@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class TradersCalculatorPage extends AbstractPage{
 
-    private final String PAGE_URL = "https://www.exness.com/en/calculator";
+    private final String PAGE_URL = "https://www.ftx.com/en/calculator";
 
     private final By locatorLotInput = By.xpath("//*[text()='Lot']/preceding-sibling::input");
     private final By locatorCalculateButton = By.xpath("//button[text()='Calculate']");
