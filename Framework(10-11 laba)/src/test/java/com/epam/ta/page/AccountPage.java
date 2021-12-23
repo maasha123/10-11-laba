@@ -11,7 +11,7 @@ import java.lang.String;
 
 public class AccountPage extends AbstractPage{
 
-    private final String PAGE_URL = "https://my.exness.com";
+    private final String PAGE_URL = "https://ftx.com";
 
     @FindBy(id = "amount")
     private WebElement inputAreaBalance;
